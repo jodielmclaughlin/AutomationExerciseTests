@@ -53,8 +53,8 @@ public class ConfigReader {
         return Long.parseLong(get("explicit.wait.seconds"));
     }
 
-    public static String standardUsername() {
-        return get("standard.username");
+    public static String standardEmail() {
+        return get("standard.email");
     }
 
     public static String standardPassword() {
